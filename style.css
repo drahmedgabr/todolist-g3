@@ -1,0 +1,56 @@
+body {
+    background-color: aqua;
+}
+
+#mainDiv {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid darkblue;
+}
+
+h1 {
+    font-size: 50px;
+    color: darkblue;
+}
+
+input {
+    width: 60%;
+    font-size: 22px;
+    padding: 10px;
+}
+
+button {
+    width: 40%;
+    max-width: 200px;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(77, 77, 248);
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(122, 122, 234);
+}
+
+button:active {
+    background-color: rgb(36, 36, 203);
+}
+
+p {
+    font-size: 22px;
+}
+
+li {
+    font-size: 22px;
+}

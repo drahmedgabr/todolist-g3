@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainDiv">
+        <h1>TODO List</h1>
+        <input type="text" id="noteInput" placeholder="Enter your note">
+        <br><br>
+        <ol id="listDiv"></ol>
+        <br><br>
+        <button onclick="addNote()">Add</button>
+        <button onclick="showList()">Show</button>
+        <br><br>
+        <button onclick="hideNotes()">Hide</button>
+        <button onclick="deleteNotes()">Delete</button>
+        <br><br>
+        <p>Item Count: <span id="itemCount">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
